@@ -1,0 +1,35 @@
+:root {
+    --bg: #f8f9fa;
+    --text: #212529;
+    --card-bg: #ffffff;
+}
+
+[data-bs-theme="dark"] {
+    --bg: #121212;
+    --text: #f8f9fa;
+    --card-bg: #1f1f1f;
+}
+
+body {
+    background-color: var(--bg);
+    color: var(--text);
+}
+
+.card {
+    background-color: var(--card-bg);
+}
+
+.template-list {
+    max-height: 72vh;
+    overflow: auto;
+}
+
+.template-item {
+    cursor: pointer;
+    padding: 0.45rem;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.15);
+}
+
+.template-item:hover {
+    background-color: rgba(13, 110, 253, 0.1);
+}
